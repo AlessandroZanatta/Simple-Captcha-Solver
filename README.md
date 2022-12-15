@@ -4,11 +4,12 @@
 
 This project is about an automatical solver of captchas, designed to break captchas from a certain challenge website. It turned out to be very efficient (yet very over-complicated) to use Deep Learning techniques.
 
-This is the first project I create using 
+This is the first project I created using Machine Learning techniques.
 
 ## Solving process
 
-1. Download the captcha. The standard size for this particular example was 120x40.
+1. Download the captcha. The standard size for this particular example was 120x40. Captchas look like the following one:
+![image](https://user-images.githubusercontent.com/41871589/207936920-de24c509-b61f-485c-b733-03a2732272d2.png)
 2. Preprocess the images:
     1. Convert the image into its binary representation (which means turning all pixels to either black or white). This makes further processing way easier with an acceptable loss of information.
     2. Divide the captcha into the single letters that compose it. Considered captchas had 6 letters. This was done using the [snake](https://www.acsac.org/2007/papers/70.pdf) technique. 
