@@ -1,6 +1,6 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-# Captcha Solver (with Deep Learning)
+# Simple Captcha Solver
 
 This project is about an automatical solver of captchas, designed to break captchas from a certain challenge website. It turned out to be very efficient (yet very over-complicated) to use Deep Learning techniques.
 
